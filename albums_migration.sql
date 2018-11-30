@@ -1,5 +1,7 @@
 use codeup_test_db;
 
-drop table if exists quotes;
+drop table if exists albums;
 
-create table quotes (id int unsigned not null auto_increment, first_name varchar(50), last_name varchar(50), content text not null, primary key (id));
+create table albums (id int unsigned not null auto_increment,
+artist varchar(240), name varchar(240) not null, release_date int, sales float,
+genre varchar(240), primary key (id));
