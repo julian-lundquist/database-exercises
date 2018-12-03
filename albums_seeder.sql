@@ -10,5 +10,4 @@ insert into albums (artist, name, release_date, certified_sales, genre) values
 ('Michael Jackson', 'Bad', 1987, 35, 'pop'),
 ('Michael Jackson', 'Off the Wall', 1979, 19, 'pop'),
 ('Adele', '21', 2011, 31, 'pop'),
-('Bee Gees', 'Saturday Night Fever', 1977, 40, 'disco')
-;
+('Bee Gees', 'Saturday Night Fever', 1977, 40, 'disco');
